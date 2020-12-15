@@ -10,7 +10,7 @@ public class Cliente implements Serializable {
 	private String identificacion;
 	private String nombres;
 	private String apellidos;
-	private Date fechaNacimiento;
+	private String fechaNacimiento;
 
 	public String getIdentificacion() {
 		return identificacion;
@@ -36,11 +36,11 @@ public class Cliente implements Serializable {
 		this.apellidos = apellidos;
 	}
 
-	public Date getFechaNacimiento() {
+	public String getFechaNacimiento() {
 		return fechaNacimiento;
 	}
 
-	public void setFechaNacimiento(Date fechaNacimiento) {
+	public void setFechaNacimiento(String fechaNacimiento) {
 		this.fechaNacimiento = fechaNacimiento;
 	}
 
